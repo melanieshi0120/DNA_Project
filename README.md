@@ -1,6 +1,6 @@
-# Project Title:
+# Project Title
 Personalized Medicine: Redefining Cancer Treatment
-# Project Goal: 
+# Project Goal 
 To predict the effect of Genetic Variants to enable Personalized Medicine
 # Overview
 Every year, there are 7 million patients who suffer from cancer worldwide, and 5 million people die of cancer. 60% of patients can only survive for around 5 years after diagnosis. However, no matter what kind of cancer, there are specific changes in the genome in terms of the specific type of tumor (typing) or the different stages of development. The genome changes (causes) cell differentiation, Abnormal development, and growth transmission which may be caused by gene mutation or genetic inheritance. Once a DNS sequence obtained, a cancer tumor may have thousands of genetic mutations and the challenge is to distinguish the mutations that contribute to tumor growth from the neutral mutations. 
