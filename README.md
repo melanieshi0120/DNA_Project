@@ -85,4 +85,6 @@ This project is based on text-based clinical literature, annotated mutations, an
 
 `Before model stacking, the highest F1 score from neural network is 0.9029.
 After model stacking, the F1 score is 0.9070. 
-The final F1 score increased 0.004.`
+The final F1 score increased 0.004. Based on the confusion matrix below, we can see that the model stacking method worked very well. `
+![image/confusion_matrix.png](image/confusion_matrix.png)
+
