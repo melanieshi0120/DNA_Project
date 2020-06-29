@@ -83,8 +83,9 @@ This project is based on text-based clinical literature, annotated mutations, an
 - F1 Score of train data : 0.995473205118092
 - F1 Score of test data : 0.9070306366113982
 
-`Before model stacking, the highest F1 score from neural network is 0.9029.
+-Before model stacking, the highest F1 score from neural network is 0.9029.
 After model stacking, the F1 score is 0.9070. 
-The final F1 score increased 0.004. Based on the confusion matrix below, we can see that the model stacking method worked very well. `
+The final F1 score increased 0.004. Based on the confusion matrix below, we can see that the model stacking method worked very well.
+
 ![image/confusion_matrix.png](image/confusion_matrix.png)
 
