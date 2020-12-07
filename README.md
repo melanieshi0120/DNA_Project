@@ -1,4 +1,4 @@
-# Project Title - Personalized Medicine: Redefining Cancer Treatment
+# Personalized Medicine: Redefining Cancer Treatment
 ![image/DNA.jpg](image/DNA.jpg)
 # Project Goal 
 To predict the effect of Genetic Variants to enable Personalized Medicine
