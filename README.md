@@ -1,5 +1,4 @@
-# Project Title
-Personalized Medicine: Redefining Cancer Treatment
+# Project Title - Personalized Medicine: Redefining Cancer Treatment
 ![image/DNA.jpg](image/DNA.jpg)
 # Project Goal 
 To predict the effect of Genetic Variants to enable Personalized Medicine
@@ -85,7 +84,7 @@ After data engineering, data pre-processing, and data vectorization, we can go a
  
 #
 Let us take a look at the new train and new test data. Each column contains the predicted values from three models.
-![images/new_features.png](images/new_features.png)
+![image/new_features.png](image/new_features.png)
 ## Results After Model Stacking
 
 ### XGboost
