@@ -98,4 +98,5 @@ The final F1 score increased 2% Based on the confusion matrix below, we can see 
 
 ![image/confusion_matrix.png](image/confusion_matrix.png)
 
-
+# Summary
+We may obtain higher accuracy and f1 score after we apply model stacking, however, it is hard to explain and interpret the results. Before model stacking the highest accuracy is from the neural network model and the predictor is Variation. The accuracy and f1-score are 89.61% and 90.29% respectively. After model staking the accuracy and f1-score are 91.48% and 92.04% respectively. Obviously we get better results and the accuracy & f1 score increased around 2%. Based on the confusion matrix below, most classes were predicted very well, but our model did not predict very well for Class 7.  If we are able to get a large dataset, the accuracy and f1 score will increase for sure. Besides, the bigger dataset we have, the better results the Neural Network generates.
