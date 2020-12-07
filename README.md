@@ -85,7 +85,7 @@ After data engineering, data pre-processing, and data vectorization, we can go a
  
 #
 Let us take a look at the new train and new test data. Each column contains the predicted values from three models.
-![images/new_features.png](images/)
+![images/new_features.png](images/new_features.png)
 ## Results After Model Stacking
 
 ### XGboost
