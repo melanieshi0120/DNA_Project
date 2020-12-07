@@ -35,10 +35,9 @@ In Class 1, the one has most frequency is Truncating Mutations which is in secon
 ![image/bigram.png](image/bigram.png)
 
 # Model Stacking
+###
+After data engineering, data pre-processing, and data vectorization, we can go ahead to start dive into our modeling part. The picture below is the process of the modeling part. I analyzed each column individually in the first stage using different models — Naive Bayes, Neural Network, and Logistic Regression. In the second stage, all of those outputs are collected as new features for the next stage modeling part — XGboost.
 ![image/model_stacking.png](image/model_stacking.png)
-
-# Summary
-
 ## Results Before Model Stacking
 
 ### Naive Bayes
@@ -84,6 +83,9 @@ In Class 1, the one has most frequency is Truncating Mutations which is in secon
  - Train data f1 score:0.9039234128069726
  - Test data f1 score:0.8628257154404384
  
+#
+Let us take a look at the new train and new test data. Each column contains the predicted values from three models.
+![images/new_features.png](images/)
 ## Results After Model Stacking
 
 ### XGboost
@@ -95,4 +97,5 @@ After model stacking, the F1 score is 0.92.
 The final F1 score increased 2% Based on the confusion matrix below, we can see that the model stacking method worked very well.
 
 ![image/confusion_matrix.png](image/confusion_matrix.png)
+
 
