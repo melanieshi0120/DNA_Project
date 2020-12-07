@@ -1,12 +1,15 @@
 # Project Title
 Personalized Medicine: Redefining Cancer Treatment
+![image/dna_squence.gif](image/dna_squence.gif)
 # Project Goal 
 To predict the effect of Genetic Variants to enable Personalized Medicine
 # Overview
-Every year, there are 7 million patients who suffer from cancer worldwide, and 5 million people die of cancer. 60% of patients can only survive for around 5 years after diagnosis. However, no matter what kind of cancer, there are specific changes in the genome in terms of the specific type of tumor (typing) or the different stages of development. The genome changes (causes) cell differentiation, Abnormal development, and growth transmission which may be caused by gene mutation or genetic inheritance. Once a DNS sequence obtained, a cancer tumor may have thousands of genetic mutations and the challenge is to distinguish the mutations that contribute to tumor growth from the neutral mutations. 
-This project is based on text-based clinical literature, annotated mutations, and Genes Where Mutation is Located, I developed some Machine Learning algorithms that, using this knowledge base to automatically classify genetic variations.
-![image/DNA.jpg](image/DNA.jpg)
-# Attribute Information
+Every year, there are 7 million patients who suffer from cancer worldwide, and 5 million people die of cancer. 60% of patients can only survive for around 5 years after diagnosis. However, no matter what kind of cancer, there are specific changes in the genome in terms of the specific type of tumor (typing) or the different stages of development.
+
+ The genome changes (causes) cell differentiation, Abnormal development, and growth transmission which may be caused by gene mutation or genetic inheritance. In order to avoid a huge amount of manual work for the researchers, machine learning & deep learning plays a very important role in this territory. For example, a cancer tumor may have thousands of genetic mutations in a DNA sequence and the challenge is to distinguish the mutations that contribute to tumor growth from the neutral mutations. Nowadays, a lot of researchers still study how genetic testing can help us to find a way to treat these cancers.
+
+This project is based on text-based clinical literature, annotated mutations, and Genes Where Mutation is Located, I developed some Machine Learning algorithms using the genomics knowledge to automatically classify genetic variations. The data is from Kaggle, and the attribute information includes ID and the Gene where this genetic mutation is located; Variation — The amino acid change for mutations; Text — The clinical evidence used to classify the genetic mutation; The Class column contains the genetic mutation that has been classified on.
+#### Attribute Information
 - Gene: The gene where this genetic mutation is located)
 - Variation: The aminoacid change for this mutations)
 - Text: The clinical evidence used to classify the genetic mutation
