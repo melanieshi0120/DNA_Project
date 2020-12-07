@@ -1,6 +1,6 @@
 # Project Title
 Personalized Medicine: Redefining Cancer Treatment
-![image/dna_squence.gif](image/dna_squence.gif)
+![image/DNA.jpg](image/DNA.jpg)
 # Project Goal 
 To predict the effect of Genetic Variants to enable Personalized Medicine
 # Overview
@@ -8,7 +8,7 @@ Every year, there are 7 million patients who suffer from cancer worldwide, and 5
 
  The genome changes (causes) cell differentiation, Abnormal development, and growth transmission which may be caused by gene mutation or genetic inheritance. In order to avoid a huge amount of manual work for the researchers, machine learning & deep learning plays a very important role in this territory. For example, a cancer tumor may have thousands of genetic mutations in a DNA sequence and the challenge is to distinguish the mutations that contribute to tumor growth from the neutral mutations. Nowadays, a lot of researchers still study how genetic testing can help us to find a way to treat these cancers.
 
-This project is based on text-based clinical literature, annotated mutations, and Genes Where Mutation is Located, I developed some Machine Learning algorithms using the genomics knowledge to automatically classify genetic variations. The data is from Kaggle, and the attribute information includes ID and the Gene where this genetic mutation is located; Variation — The amino acid change for mutations; Text — The clinical evidence used to classify the genetic mutation; The Class column contains the genetic mutation that has been classified on.
+This project is based on text-based clinical literature, annotated mutations, and Genes Where Mutation is Located, I developed some Machine Learning algorithms using the genomics knowledge to automatically classify genetic variations. The data is from Kaggle, and the attribute information includes ID and the Gene where this genetic mutation is located; Variation — The amino acid change for mutations; Text — The clinical evidence used to classify the genetic mutation; The Class column contains the genetic mutation that has been classified on. 
 #### Attribute Information
 - Gene: The gene where this genetic mutation is located)
 - Variation: The aminoacid change for this mutations)
@@ -19,10 +19,13 @@ This project is based on text-based clinical literature, annotated mutations, an
 ## Target Distribution
 ![image/class_distribution.png](image/class_distribution.png)
 ## Genes Distribution
+The bar chart shows the top 30 genes where mutations are located. The first place is BRCA1 and you can see there is a gene named BRCA2 in fifth place. What are they? The name “BRCA” is an abbreviation for the “Breast Cancer Gene.” BRCA1 and BRCA2 are two different genes that have been found to impact a person’s chances of developing breast cancer. Additionally, the changes in the TP53 gene greatly increases the risk of developing breast cancer, bladder cancer, and lung cancer, etc. Besides, there are around eight mutations in the EGFR gene have been associated with lung cancer.
 ![image/genes.png](image/genes.png)
 ## Genes & Classes
+After knowing those genes and the potential risks of their mutations, Let us take look at bar charts for each class. Obviously, one gene could be classified in different classes. For example, the gene BRCA1 is almost in all classes, which means one type of gene could have more than one mutation. The gene like “PTEN” predominantly presents in a single Class. On the other hand, there are a few genes in Class 8 and Class 9.
 ![image/genes_vs_classes.png](image/genes_vs_classes.png)
 ## Variations Distribution
+In our dataset, there are a total of 2993 different variations and each variation matches one or more genes. Not all variations can cause cancers but they may influence cancer risk.
 ![image/variations.png](image/variations.png)
 ## Variations & Classes
 ![image/variations_vs_classes.png](image/variations_vs_classes.png)
