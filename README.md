@@ -28,6 +28,7 @@ After knowing those genes and the potential risks of their mutations, Let us tak
 In our dataset, there are a total of 2993 different variations and each variation matches one or more genes. Not all variations can cause cancers but they may influence cancer risk.
 ![image/variations.png](image/variations.png)
 ## Variations & Classes
+In Class 1, the one has most frequency is Truncating Mutations which is in second place in Class 6. Fusions, Deletion, Amplification have high frequencies in Class 2,4, and 6&7 respectively. On the other hand, the number of each variation’s frequency is one (1) in Class 3,5,8 and 9.
 ![image/variations_vs_classes.png](image/variations_vs_classes.png)
 
 ## Text Data - Bigrams 
